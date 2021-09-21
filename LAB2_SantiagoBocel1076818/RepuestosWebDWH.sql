@@ -364,3 +364,5 @@ GO
 			INNER JOIN Dimension.Geografia AS G ON(O.Sk_Geografia = G.Sk_Geografia)
 			INNER JOIN Dimension.Clientes AS C ON(O.SK_Clientes = C.SK_Clientes)
 			INNER JOIN Dimension.Fecha AS F ON (O.DateKey = F.DateKey)
+
+-------------------------------------------------------------------------------------------
